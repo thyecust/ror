@@ -43,7 +43,7 @@ class TestWikipediaROR(unittest.TestCase):
         self.word("Белкин = Belkin")
         self.word("Ельцин = Yeltsin")
         self.word("Раздольное = Razdolnoye")
-        # self.word("Юрьев = Yuryev (ь omitted; see ь below)")
+        self.word("Юрьев = Yuryev")
         self.word("Подъездной = Podyezdnoy")
 
     def test_ё(self):
