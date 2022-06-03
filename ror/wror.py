@@ -1,8 +1,9 @@
 import ror.letter as letter
-import re
+
 
 def upper(c):
     return c[0].upper() + c[1:]
+
 
 def word(rs):
     rm = ""
@@ -16,7 +17,9 @@ def word(rs):
             raise NameError(f"has non-russian alphabet at {i}")
     return rm
 
+
 symbols = ["-", "_", "."]
+
 
 def char(c, i=0, rs=""):
     assert(rs == "" or rs[i] == c)
